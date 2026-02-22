@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f6fb;
+}
+
+/* MAIN WRAPPER */
+.order-container {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* LEFT: FORM */
+.order-form {
+    flex: 2;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+}
+
+.order-form h2 {
+    font-size: 28px;
+    color: #003566;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccd3e0;
+    font-size: 16px;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: #0055cc;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #003f99;
+}
+
+/* RIGHT: PACKAGE SUMMARY */
+.package-summary {
+    flex: 1;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+}
+
+.package-summary h3 {
+    color: #003566;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.default-msg {
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
+
+#pkgSpeed {
+    font-size: 36px;
+    color: #0055cc;
+    font-weight: bold;
+}
+
+.price {
+    color: #111;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.package-summary ul {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .order-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
