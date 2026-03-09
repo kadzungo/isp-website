@@ -44,3 +44,22 @@ System Modules
 •	Subscription summaries
 
 
+Future Improvements
+
+Mobile money payment integration (M-Pesa)
+
+MikroTik API integration for automatic user control
+
+SMS notifications for billing alerts
+
+Network monitoring dashboard
+
+Customer self-service portal
+
+Author
+
+Arnold Tezi
+Backend Developer (PHP & MySQL)
+Interested in Networking, ISP Systems, and Payment Integrations
+
+
